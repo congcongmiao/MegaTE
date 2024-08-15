@@ -2,9 +2,7 @@
 
 Code repository for ACM SIGCOMM '24 paper 'MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud'.
 
-Run `download.sh` to fetch the traffic matrices and pre-computed paths used in
-our evaluation. (For confidentiality reasons, we only share TMs and paths for
-topologies from the Internet Topology Zoo.)
+Run `download.sh` to fetch the traffic matrices and pre-computed paths from TopologyZoo.
 
 
 ## Dependencies
