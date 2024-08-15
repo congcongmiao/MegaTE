@@ -18,15 +18,15 @@ topologies from the Internet Topology Zoo.)
 ## Code structure 
 ```
 .
-©À©¤©¤ benchmarks              # test code for MegaTE, NcFlow and LP-all
-©¦   ©¸©¤©¤ demo                # demo for small-scale example
-©À©¤©¤ lib                     # source code for MegaTE SSP, NcFlow and LP
-©À©¤©¤ scripts                 # generating site/server level topologies, paths and traffic matrices 
-©À©¤©¤ topologies              # network topologies(site-level, server-level)
-©¦   ©À©¤©¤ paths               # paths in topologies(site-level, server-level)
-©¦   ©À©¤©¤ site-level topologies    
-©¦   ©¸©¤©¤ server-level topologies         
-©¸©¤©¤ traffic-matrices        # traffic demand matrices(site-level/server-level, split/non-split)
-    ©À©¤©¤ site-level traffic matrices    
-    ©¸©¤©¤ server-level traffic matrices
+|-- benchmarks              # test code for MegaTE, NcFlow and LP-all
+|   |-- demo                # demo for small-scale example
+|-- lib                     # source code for MegaTE SSP, NcFlow and LP
+|-- scripts                 # generating site/server level topologies, paths and traffic matrices 
+|-- topologies              # network topologies(site-level, server-level)
+|   |-- paths               # paths in topologies(site-level, server-level)
+|   |-- site-level topologies    
+|   |-- server-level topologies         
+|-- traffic-matrices        # traffic demand matrices(site-level/server-level, split/non-split)
+    |-- site-level traffic matrices    
+    |-- server-level traffic matrices
 ```
