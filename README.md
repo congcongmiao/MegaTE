@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MegaTE
 
 Code repository for ACM SIGCOMM '24 paper 'MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud'.
